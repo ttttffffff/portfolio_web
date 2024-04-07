@@ -1,0 +1,33 @@
+.porfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+.porfolio span:nth-of-type(1){
+    color: var(--black);
+    font-size: 2rem;
+    font-weight: bold;
+}
+.porfolio span:nth-of-type(2){
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+/* slider */
+.porfolio .swiper{
+    overflow: visible!important;
+}
+.porfolio-slider{
+    margin-top: 3rem;
+    width: 100%;
+}
+.porfolio-slider .swiper-slide{
+    width: 20rem;
+}
+.porfolio img{
+    width: 19rem;
+    filter: drop-shadow(-12px 15px 13px rgba(0,0,0,0.25));
+    border-radius: 19px;
+}
